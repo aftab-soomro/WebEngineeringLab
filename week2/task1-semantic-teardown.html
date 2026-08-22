@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1 — Semantic teardown</title>
+</head>
+<body>
+
+  <header>
+    <h1>Task 1 &mdash; Semantic teardown</h1>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>The annotated image</h2>
+    <p>
+      This is the homepage of a news site broken into its regions. Every box is
+      labelled with the HTML5 element that region should be written with.
+    </p>
+
+    <figure>
+      <img src="task1-semantic-teardown.svg"
+           alt="Wireframe of a news homepage. A red box across the top is labelled header and contains the site name and an orange box labelled nav with the links Home, World, Sport, Business, Culture, Opinion and Search. Below it a green box labelled main fills the left two thirds and holds two blue boxes labelled article, each with a headline, an image and body text. A purple box labelled aside sits on the right with Most read links, a newsletter sign-up and an advertisement. A grey box labelled footer runs across the bottom with About us, Contact, Privacy, Terms and Jobs links and a copyright line."
+           width="1000" height="880">
+      <figcaption>Semantic teardown of a news homepage layout.</figcaption>
+    </figure>
+
+    <h2>What each box is and why</h2>
+    <dl>
+      <dt><code>&lt;header&gt;</code></dt>
+      <dd>The strip at the very top that carries the site name. It is the introduction to the page, not a story.</dd>
+
+      <dt><code>&lt;nav&gt;</code></dt>
+      <dd>The block of major site links inside the header. A screen reader can jump straight to it as a landmark.</dd>
+
+      <dt><code>&lt;main&gt;</code></dt>
+      <dd>The one region that holds what this page is actually for. There is only ever one <code>&lt;main&gt;</code> per page, and the header, nav, aside and footer stay outside it.</dd>
+
+      <dt><code>&lt;article&gt;</code></dt>
+      <dd>Each news story. The test is that a story still makes sense if you cut it out and paste it somewhere else, so it earns <code>&lt;article&gt;</code> rather than <code>&lt;section&gt;</code> or a <code>&lt;div&gt;</code>.</dd>
+
+      <dt><code>&lt;aside&gt;</code></dt>
+      <dd>The right-hand column: most-read links, the newsletter box and the advert. It is related to the page but it is not the main content.</dd>
+
+      <dt><code>&lt;footer&gt;</code></dt>
+      <dd>The bottom strip with the secondary links and the copyright line.</dd>
+    </dl>
+
+    <h2>How to submit this</h2>
+    <p>
+      Open <a href="task1-semantic-teardown.svg">task1-semantic-teardown.svg</a> in a
+      browser and save or screenshot it if the submission has to be a PNG or JPG.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Aftab Soomro. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

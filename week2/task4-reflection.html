@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 — Reflection</title>
+</head>
+<body>
+
+  <header>
+    <h1>Task 4 &mdash; Reflection</h1>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Where I almost used a <code>&lt;div&gt;</code>, and what I used instead</h2>
+
+      <p>
+        While rewriting the blog markup I almost wrapped the whole post in
+        <code>&lt;div class="post"&gt;</code>, but I used <code>&lt;article&gt;</code>
+        instead, because the post is self-contained and still makes sense if you lift
+        it out of the page.
+      </p>
+
+      <p>
+        <code>&lt;div class="top"&gt;</code> became a <code>&lt;header&gt;</code>
+        holding an <code>&lt;h1&gt;</code> and a <code>&lt;nav&gt;</code>, so a screen
+        reader can announce the page title and jump straight to the navigation
+        landmark.
+      </p>
+
+      <p>
+        Instead of <code>&lt;div class="date"&gt;</code> I used
+        <code>&lt;time datetime="2026-08-09"&gt;</code> so the date is machine-readable,
+        and <code>&lt;span onclick="go('/')"&gt;</code> became a real
+        <code>&lt;a href&gt;</code> that works with the keyboard.
+      </p>
+
+      <p>
+        On the contact page I almost used <code>&lt;div&gt;</code>s to push the fields
+        apart, but I wrapped each label and input in a <code>&lt;p&gt;</code> and left
+        the real spacing for CSS in Week 03.
+      </p>
+
+      <p>
+        The only place I would still reach for a <code>&lt;div&gt;</code> is a pure
+        styling wrapper that carries no meaning of its own.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Aftab Soomro. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

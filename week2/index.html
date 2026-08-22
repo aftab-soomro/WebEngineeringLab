@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Engineering — Week 02</title>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, Web Engineering</h1>
+    <h2>I am Aftab</h2>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="https://thumbs.dreamstime.com/b/smiling-boy-white-background-11884883.jpg"
+         alt="A smiling boy standing against a plain white background"
+         width="400" height="400">
+
+    <p>this is my first Paragraph.</p>
+    <p>This is my second Paragraph.</p>
+
+    <a href="https://google.com">Google Link</a>
+    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">Visit site</a>
+
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <!-- Link to another page -->
+    <a href="profile.html">About me</a>
+
+    <!-- Link to another website -->
+    <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">
+      Visit W3Schools
+    </a>
+
+    <!-- Jump to a section on the same page -->
+    <a href="#contact">Contact</a>
+
+    <!-- Email and phone -->
+    <a href="mailto:me@example.com">Email me</a>
+    <a href="tel:+923001234567">Call me</a>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Write to me below, or use the <a href="contact.html">contact page</a>.</p>
+    </section>
+
+    <figure>
+      <img src="https://c8.alamy.com/comp/EGM863/small-boy-crying-dramatically-before-bedtime-EGM863.jpg"
+           alt="A young boy crying, photographed against a dark background"
+           width="450" height="450">
+      <figcaption>A stock photo I used to practise the figure and figcaption tags.</figcaption>
+    </figure>
+
+    <!-- Each field is wrapped in a paragraph instead of <br><br> - spacing is CSS's job in Week 03 -->
+    <form action="#" method="post">
+      <p>
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+
+    <table>
+      <caption>My tools</caption>
+      <thead>
+        <tr>
+          <th scope="col">Tool</th>
+          <th scope="col">Comfort</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">HTML</th>
+          <td>Strong</td>
+        </tr>
+        <tr>
+          <th scope="row">CSS</th>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <th scope="row">Git</th>
+          <td>Comfortable</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section>
+      <h2>Week 02 homework</h2>
+      <ol>
+        <li><a href="task1-semantic-teardown.html">Task 1 &mdash; Semantic teardown</a></li>
+        <li><a href="homework-rewrite.html">Task 2 &mdash; Fixed bad HTML</a></li>
+        <li><a href="profile.html">Task 3 &mdash; Profile page</a> and <a href="contact.html">Contact page</a></li>
+        <li><a href="task4-reflection.html">Task 4 &mdash; Reflection</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Aftab Soomro. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

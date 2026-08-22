@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+</head>
+<body>
+
+  <!--
+    Task 2 - the same page rewritten with semantic tags.
+    div.top       -> header
+    div.big-text  -> h1
+    div.links     -> nav + ul + li
+    span onclick  -> a href   (a real link works with the keyboard, a span does not)
+    div.post      -> article
+    div.post-title-> h2
+    div.post-body -> p
+    div.date      -> time inside the article's own footer
+  -->
+
+  <header>
+    <h1>My Blog</h1>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>First Post</h2>
+      <p>Hello world</p>
+      <footer>
+        <p>Published <time datetime="2026-08-09">Aug 9 2026</time></p>
+      </footer>
+    </article>
+  </main>
+
+</body>
+</html>

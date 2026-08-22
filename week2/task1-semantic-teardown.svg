@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 880" width="1000" height="880" role="img" aria-labelledby="t d">
+  <title id="t">Semantic teardown of a news homepage</title>
+  <desc id="d">A wireframe of a typical news homepage. Every region is boxed and labelled with the HTML5 semantic element it should be written as: header, nav, main, article, aside and footer.</desc>
+
+  <rect width="1000" height="880" fill="#ffffff"/>
+
+  <text x="20" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#111111">Task 1 &#8212; Semantic teardown: "The Daily Example" homepage</text>
+  <text x="20" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#555555">Each coloured box is a region of the page. The pill in its top-left corner is the HTML5 element that region should be written with.</text>
+
+  <!-- ===== header ===== -->
+  <rect x="20" y="80" width="960" height="150" fill="#fdecea" stroke="#d32f2f" stroke-width="2"/>
+  <rect x="20" y="80" width="84" height="24" fill="#d32f2f"/>
+  <text x="30" y="97" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">header</text>
+  <text x="40" y="140" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#333333">The Daily Example</text>
+
+  <!-- nav (nested inside header) -->
+  <rect x="40" y="158" width="920" height="56" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <rect x="40" y="158" width="52" height="22" fill="#ef6c00"/>
+  <text x="49" y="174" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#ffffff">nav</text>
+  <text x="52" y="201" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#444444">Home &#160;&#160;&#160; World &#160;&#160;&#160; Sport &#160;&#160;&#160; Business &#160;&#160;&#160; Culture &#160;&#160;&#160; Opinion &#160;&#160;&#160; Search</text>
+
+  <!-- ===== main ===== -->
+  <rect x="20" y="246" width="650" height="490" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <rect x="20" y="246" width="62" height="24" fill="#2e7d32"/>
+  <text x="29" y="263" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">main</text>
+
+  <!-- article 1 -->
+  <rect x="40" y="286" width="610" height="210" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <rect x="40" y="286" width="72" height="22" fill="#1565c0"/>
+  <text x="49" y="302" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#ffffff">article</text>
+  <text x="52" y="334" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#222222">Lead story headline goes here</text>
+  <rect x="52" y="348" width="190" height="115" fill="#dfe6ea" stroke="#9bb0bd" stroke-width="1"/>
+  <text x="147" y="410" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#5d707c">img + alt=""</text>
+  <rect x="262" y="352" width="378" height="10" rx="3" fill="#cfe0f0"/>
+  <rect x="262" y="374" width="378" height="10" rx="3" fill="#cfe0f0"/>
+  <rect x="262" y="396" width="378" height="10" rx="3" fill="#cfe0f0"/>
+  <rect x="262" y="418" width="300" height="10" rx="3" fill="#cfe0f0"/>
+  <text x="52" y="482" font-family="Consolas, monospace" font-size="12" fill="#1565c0">&#8627; time datetime="2026-08-09" &#8212; 9 Aug 2026, by A. Reporter</text>
+
+  <!-- article 2 -->
+  <rect x="40" y="512" width="610" height="205" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <rect x="40" y="512" width="72" height="22" fill="#1565c0"/>
+  <text x="49" y="528" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#ffffff">article</text>
+  <text x="52" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#222222">Second story headline</text>
+  <rect x="52" y="574" width="190" height="115" fill="#dfe6ea" stroke="#9bb0bd" stroke-width="1"/>
+  <text x="147" y="636" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#5d707c">img + alt=""</text>
+  <rect x="262" y="578" width="378" height="10" rx="3" fill="#cfe0f0"/>
+  <rect x="262" y="600" width="378" height="10" rx="3" fill="#cfe0f0"/>
+  <rect x="262" y="622" width="378" height="10" rx="3" fill="#cfe0f0"/>
+  <rect x="262" y="644" width="240" height="10" rx="3" fill="#cfe0f0"/>
+  <text x="262" y="686" font-family="Consolas, monospace" font-size="12" fill="#1565c0">&#8627; each story repeats, so each one is its own article</text>
+
+  <!-- ===== aside ===== -->
+  <rect x="690" y="246" width="290" height="490" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/>
+  <rect x="690" y="246" width="62" height="24" fill="#6a1b9a"/>
+  <text x="699" y="263" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">aside</text>
+
+  <text x="708" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#333333">Most read</text>
+  <rect x="708" y="312" width="254" height="10" rx="3" fill="#e1c9ea"/>
+  <rect x="708" y="332" width="254" height="10" rx="3" fill="#e1c9ea"/>
+  <rect x="708" y="352" width="220" height="10" rx="3" fill="#e1c9ea"/>
+  <rect x="708" y="372" width="254" height="10" rx="3" fill="#e1c9ea"/>
+  <line x1="708" y1="400" x2="962" y2="400" stroke="#d3bcdc" stroke-width="1"/>
+
+  <text x="708" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#333333">Newsletter</text>
+  <rect x="708" y="440" width="254" height="32" fill="#ffffff" stroke="#b39ddb" stroke-width="1"/>
+  <text x="718" y="461" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8a7a96">label for="nl-email" + input</text>
+  <rect x="708" y="482" width="110" height="30" fill="#6a1b9a"/>
+  <text x="763" y="502" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Sign up</text>
+  <line x1="708" y1="532" x2="962" y2="532" stroke="#d3bcdc" stroke-width="1"/>
+
+  <text x="708" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#333333">Advertisement</text>
+  <rect x="708" y="572" width="254" height="140" fill="#faf5fc" stroke="#b39ddb" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="835" y="647" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8a7a96">side content, not the</text>
+  <text x="835" y="665" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8a7a96">main story &#8594; aside</text>
+
+  <!-- ===== footer ===== -->
+  <rect x="20" y="752" width="960" height="100" fill="#eceff1" stroke="#455a64" stroke-width="2"/>
+  <rect x="20" y="752" width="70" height="24" fill="#455a64"/>
+  <text x="29" y="769" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">footer</text>
+  <text x="40" y="806" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#444444">About us &#160;&#160;&#183;&#160;&#160; Contact &#160;&#160;&#183;&#160;&#160; Privacy &#160;&#160;&#183;&#160;&#160; Terms &#160;&#160;&#183;&#160;&#160; Jobs</text>
+  <text x="40" y="832" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#666666">&#169; 2026 The Daily Example. All rights reserved.</text>
+</svg>
